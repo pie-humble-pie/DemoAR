@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'moon.002',
+      parameters: [
+        {
+          baseColor: 'PUSHILIN_moon',
+        },
+        {
+          baseColorTint: [
+            0.17477699999999999,
+            0.247474,
+            0.29569299999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/archive/PUSHILIN_moon.obj',
+    name: 'PUSHILIN_moon',
+    recenter: 'root',
+    scale: 0.61492800000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/archive\\PUSHILIN_moon.png',
+      name: 'PUSHILIN_moon',
+      pipeline_name: 'PUSHILIN_moon.png',
+    },
+  ],
+  version: '0.52:1',
+}
